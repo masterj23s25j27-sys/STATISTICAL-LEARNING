@@ -2,7 +2,9 @@
 
 An interactive, static learning portal for R and statistical learning, from first steps to advanced practice. It is built with plain HTML, CSS, and JavaScript and is designed for GitHub Pages.
 
-**Live site:** <https://masterj23s25j27-sys.github.io/STATISTICAL-LEARNING/>
+**Live site:** <https://masterj23s25j27-sys.github.io/STATISTICAL-LEARNING-PAGES/>
+
+The full site is also pushed to the private [`STATISTICAL-LEARNING` repository](https://github.com/masterj23s25j27-sys/STATISTICAL-LEARNING). A site-only public copy in [`STATISTICAL-LEARNING-PAGES`](https://github.com/masterj23s25j27-sys/STATISTICAL-LEARNING-PAGES) serves the live page so the private repository can stay private.
 
 ## Run it locally
 
@@ -22,7 +24,7 @@ Add one lesson object to `sessions.js`. The home page, stage counts, session sid
 
 ## Publish on GitHub Pages
 
-The workflow at `.github/workflows/pages.yml` deploys the repository root after pushes to `main`. Enable GitHub Pages for the repository with **Build and deployment → Source → GitHub Actions**. Then push to `main` or run **Publish Learning R Portal** from the Actions tab.
+The public `STATISTICAL-LEARNING-PAGES` repository publishes its root using GitHub Actions. Push the site files there and the workflow deploys the home page. Keep its copy of `sessions.js` and the lesson pages in sync with this private source snapshot when you add sessions.
 
 ## Local storage
 
